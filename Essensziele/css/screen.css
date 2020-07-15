@@ -1,0 +1,61 @@
+ul{
+    display: flex;
+}
+
+li.listPoint{
+    list-style: none;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.category{
+    width: 100px;
+}
+
+li.distance{
+    width: 120px;
+}
+
+li.price{
+    width: 115px;
+}
+
+li.veggie{
+    width: 155px;
+}
+
+div#postFilter{
+    display: flex;
+}
+
+.headline{
+    padding-left: 40px;
+}
+
+div#content{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+}
+
+div#end{
+    display: flex;
+    justify-content: space-between;
+}
+
+div#summary{
+    margin-left: 40px;
+    border: 1px solid black;
+    width: max-content;
+    height: max-content;
+}
+
+.checked{
+    background: black;
+    color: white;
+}
